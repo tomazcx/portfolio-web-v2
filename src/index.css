@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+
+body{
+    background: linear-gradient(to bottom right, #1a1a1a, #000); 
+    height: 300vh;
+    color:white;
+}
+
+.translate-negative-x{
+    transform: translateX(-50%) !important;
+}
