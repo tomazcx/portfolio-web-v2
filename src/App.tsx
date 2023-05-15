@@ -3,6 +3,7 @@ import Typewriter from 'typewriter-effect'
 import { ArrowDown, MouseSimple } from 'phosphor-react'
 import { TitleSection } from './components/TitleSection'
 import { AboutSection } from './components/AboutSection'
+import { TechnologiesSection } from './components/TechnologiesSection'
 
 const App = () => {
 
@@ -10,6 +11,7 @@ const App = () => {
     <main>
       <TitleSection />
       <AboutSection />
+      <TechnologiesSection />
     </main>
   )
 }
