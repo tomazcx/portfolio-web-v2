@@ -1572,7 +1572,7 @@ prelude-ls@^1.2.1:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
 
-prop-types@^15.6.2:
+prop-types@^15.6.2, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -1620,6 +1620,13 @@ react-refresh@^0.14.0:
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.14.0.tgz#4e02825378a5f227079554d4284889354e5f553e"
   integrity sha512-wViHqhAd8OHeLS/IRMJjTSDHF3U9eWi62F/MledQGPdJGDhodXJ9PBLNGr6WWL7qlH12Mt3TyTpbS+hGXMjCzQ==
+
+react-wavify@^1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/react-wavify/-/react-wavify-1.8.0.tgz#922ed05136490d093098f70ec4922b3f44386a87"
+  integrity sha512-8Pxd1vLuC5VBUxvWa2EFYsQLZIjY68KxzM4ztw2ZG6PCAnu/d0lQDCIW+mathr/PH2AAt4A2MJHVPuWs/BLP2w==
+  dependencies:
+    prop-types "^15.8.1"
 
 react@^18.2.0:
   version "18.2.0"

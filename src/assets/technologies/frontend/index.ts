@@ -8,20 +8,18 @@ import Figma from './figma-original.svg'
 import HTML from './html5-original.svg'
 import CSS from './css3-original.svg'
 import Git from './git-plain.svg'
-import Vim from './vim-original.svg'
-import Yarn from './yarn-original.svg'
+import Javascript from './javascript-original.svg'
 
 export default [
+    HTML,
+    CSS,
+    Javascript,
     ReactLogo,
     NextJSLogo,
-    BootstrapLogo,
     ReduxLogo,
     SassLogo,
     TailwindCSSLogo,
+    BootstrapLogo,
     Figma,
-    HTML,
-    CSS,
     Git,
-    Vim, 
-    Yarn
 ]

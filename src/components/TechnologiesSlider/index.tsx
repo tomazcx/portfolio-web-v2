@@ -1,5 +1,3 @@
-import { motion } from 'framer-motion'
-import backendTechs from '../../assets/technologies/backend/index'
 import Marquee from 'react-fast-marquee'
 
 type Slider ={
@@ -16,7 +14,7 @@ export const TechnologiesSlider:React.FC<Slider> = ({elements, direction}) => {
             direction={direction}
             >
                 {elements.map(tech => (
-                    <div className='h-[4rem] lg:h-[8rem] mx-4'><img width={200} className='w-full object-cover h-full' src={tech} /></div>
+                    <div className='h-[4rem] lg:h-[8rem] mx-2 lg:mx-6'><img width={200} className='w-full object-cover h-full' src={tech} /></div>
                 ))}
 
             </Marquee>
