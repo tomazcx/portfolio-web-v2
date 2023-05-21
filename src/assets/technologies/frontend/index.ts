@@ -11,15 +11,48 @@ import Git from './git-plain.svg'
 import Javascript from './javascript-original.svg'
 
 export default [
-    HTML,
-    CSS,
-    Javascript,
-    ReactLogo,
-    NextJSLogo,
-    ReduxLogo,
-    SassLogo,
-    TailwindCSSLogo,
-    BootstrapLogo,
-    Figma,
-    Git,
+    {
+        img: HTML,
+        name: 'HTML'
+    },
+    {
+        img: CSS,
+        name: "CSS"
+    },
+    {
+        img: Javascript,
+        name: "Javascript"
+    },
+    {
+        img: ReactLogo,
+        name: "React"
+    },
+    {
+        img: NextJSLogo,
+        name: "Next.js"
+    },
+    {
+        img: ReduxLogo,
+        name: "Redux"
+    },
+    {
+        img: SassLogo,
+        name: "Sass"
+    },
+    {
+        img: TailwindCSSLogo,
+        name: "TailwindCSS"
+    },
+    {
+        img: BootstrapLogo,
+        name: "Bootstrap"
+    },
+    {
+        img: Figma,
+        name: "Figma"
+    },
+    {
+        img: Git,
+        name: "Git"
+    }
 ]

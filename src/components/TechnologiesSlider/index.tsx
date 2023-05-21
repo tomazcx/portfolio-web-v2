@@ -1,11 +1,15 @@
 import Marquee from 'react-fast-marquee'
 
 type Slider ={
-    elements:string[]
+    elements:{
+        img:string,
+        name:string
+    }[],
     direction: 'left' | 'right'
+    setHoveredTechnology: (tech:string) => void
 }
 
-export const TechnologiesSlider:React.FC<Slider> = ({elements, direction}) => {
+export const TechnologiesSlider:React.FC<Slider> = ({elements, direction, setHoveredTechnology}) => {
 
 
     return (
@@ -14,7 +18,7 @@ export const TechnologiesSlider:React.FC<Slider> = ({elements, direction}) => {
             direction={direction}
             >
                 {elements.map(tech => (
-                    <div className='h-[4rem] lg:h-[8rem] mx-2 lg:mx-6'><img width={200} className='w-full object-cover h-full' src={tech} /></div>
+                    <div onMouseEnter={()=> setHoveredTechnology(tech.name)} className='h-[4rem] cursor-pointer  lg:h-[8rem] mx-2 lg:mx-6'><img width={200} className='w-full object-cover h-full' src={tech.img} /></div>
                 ))}
 
             </Marquee>

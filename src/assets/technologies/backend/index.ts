@@ -12,16 +12,53 @@ import TypescriptLogo from './ts.png'
 import SwaggerLogo from './swagger.png'
 
 export default [
-    JestLogo,
-    DockerLogo,
-    LaravelLogo,
-    MongoDBLogo,
-    NestLogo,
-    NodeLogo,
-    PhpLogo,
-    PrismaLogo,
-    RedisLogo,
-    SqlLogo,
-    TypescriptLogo,
-    SwaggerLogo
+    {
+        img: JestLogo,
+        name: "Jest"
+    },
+    {
+        img: DockerLogo,
+        name: "Docker"
+    },
+    {
+        img: LaravelLogo,
+        name: "Laravel"
+    },
+    {
+        img: MongoDBLogo,
+        name: "MongoDB"
+    },
+    {
+        img: NestLogo,
+        name: "Nest.js"
+    },
+    {
+        img: NodeLogo,
+        name: "Node.js"
+    },
+    {
+        img: PhpLogo,
+        name: "PHP"
+    },
+    {
+        img: PrismaLogo,
+        name: "Prisma"
+    },
+    {
+        img: RedisLogo,
+        name: "Redis"
+    },
+    {
+        img: SqlLogo,
+        name: "SQL"
+    },
+    {
+        img: TypescriptLogo,
+        name: "Typescript"
+    },
+    {
+        img: SwaggerLogo,
+        name: "Swagger"
+
+    }
 ]
