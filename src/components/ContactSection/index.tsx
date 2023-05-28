@@ -9,7 +9,7 @@ export const ContactSection = () => {
     const {t} = useTranslation()
 
     return (
-        <section className="h-screen relative flex flex-col gap-24 justify-center w-11/12 mx-auto my-[50vh] lg:my-[30vh]" id="contact">
+        <section className="min-h-screen relative flex flex-col gap-24 justify-center w-11/12 mx-auto my-[20vh] " id="contact">
             <Title text={t("contactSection.title")} />
             <h2 className=" text-center text-lg lg:text-xl">{t("contactSection.subtitle-1")}</h2>
             <div className="flex gap-12 items-center mx-auto ">
