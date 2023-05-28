@@ -12,7 +12,7 @@ export const ProjectsSection = () => {
     const {t} = useTranslation()
 
     return (
-        <section id="projects" className="relative h-screen flex flex-col justify-center gap-12 my-[20vh] lg:my-0 ">
+        <section id="projects" className="relative min-h-screen lg:min-h-full flex flex-col justify-center gap-12 my-[20vh] lg:my-0 ">
             <Title text={t("projectsSection.title")} />
             <div className="lg:grid flex flex-col grid-cols-12 w-11/12 items-center mx-auto gap-8 lg:gap-12">
                 <motion.div initial={{x:-50,opacity:0}} whileInView={{x:0,opacity:1}} transition={{duration:.6, delay:.3, ease:"easeOut"}} className="col-span-4 lg:h-[300px]">
