@@ -1,4 +1,3 @@
-import {motion} from 'framer-motion'
 import { TechnologiesSlider } from '../TechnologiesSlider'
 import backend from '../../assets/technologies/backend'
 import frontend from '../../assets/technologies/frontend'

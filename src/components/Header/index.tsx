@@ -1,4 +1,3 @@
-import { List } from "phosphor-react"
 import Brazil from '../../assets/brazil.svg'
 import USA from '../../assets/usa.svg'
 import { useTranslation } from "react-i18next"
