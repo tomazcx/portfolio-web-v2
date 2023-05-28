@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import WavingHand from '../../assets/waving-hand.svg'
 import { GoDown } from '../GoDown'
 import { Title } from '../Title'
+import { AboutDialog } from '../AboutDialog'
 
 export const AboutSectionMobile: React.FC = () => {
 
@@ -22,9 +23,7 @@ export const AboutSectionMobile: React.FC = () => {
                         <motion.p initial={{ opacity: 0, y: -10 }} className='' whileInView={{ opacity: 1, y: 0 }} transition={{ delay: 4, duration: .5, ease: "linear" }}>
                             Eu desenvolvo sistemas e aplicações web, como APIs RESTful e Single Page Applications.
                         </motion.p>
-                        <motion.span initial={{ opacity: 0, y: -10 }} className='underline cursor-pointer transition-colors hover:text-gray-400' whileInView={{ opacity: 1, y: 0 }} transition={{ delay: 4.5, duration: .5, ease: "linear" }}>
-                            Leia mais
-                        </motion.span>
+                        <AboutDialog />
                     </div>
 
                 </div>
