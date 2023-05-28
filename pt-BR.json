@@ -46,7 +46,7 @@
         },
         "my-personal-trainer": {
             "title": "My Personal Trainer",
-            "description": "Dashboard para gerenciar horários e clients de personal trainers."
+            "description": "Dashboard para gerenciar horários e clientes de personal trainers."
         }
     },
     "contactSection": {
