@@ -8,7 +8,7 @@ type Project= {
 export const Project:React.FC<Project> = ({title, description,...rest}) => {
 
     return (
-        <div className="w-full h-full overflow-hidden group rounded lg border-2 border-white relative cursor-pointer my-[20vh] lg:my-0">
+        <div className="w-full h-full overflow-hidden group rounded lg border-2 border-white relative cursor-pointer lg:my-0">
             <img className="h-full w-full object-cover transition-all place-content-end cursor-pointer group-hover:scale-[1.1] group-hover:brightness-[0.3]" {...rest} />
             <div className="flex-col absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden group-hover:flex items-center gap-4">
                 <h1 className="text-lg lg:text-xl font-semibold text-center select-none">{title}</h1>

@@ -12,7 +12,7 @@ export const TechnologiesSection = () => {
     const {t} = useTranslation()
 
     return (
-        <section className="h-[100vh] flex flex-col justify-center gap-32 relative" id='technologies'>
+        <section className="h-screen flex flex-col justify-center gap-32 relative" id='technologies'>
             <Title text={hoveredTechnology !== '' ? t("technologiesSection.title-tech-hover", {tech: hoveredTechnology})  : t("technologiesSection.title")} />
             <div className="flex flex-col gap-12">
                 <TechnologiesSlider elements={backend} direction='left' setHoveredTechnology={setHoveredTechnology} />
