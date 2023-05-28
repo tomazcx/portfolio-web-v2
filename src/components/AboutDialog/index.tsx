@@ -16,12 +16,12 @@ export const AboutDialog: React.FC = () => {
             </Dialog.Trigger>
             <Dialog.Portal>
                 <Dialog.Overlay className='fixed inset-0 bg-black/60 h-screen w-screen' />
-                <Dialog.Content className='w-11/12 h-auto max-w-[800px] rounded-xl bg-black-default flex flex-col gap-4 p-8 pb-12 fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
+                <Dialog.Content className='w-11/12 h-auto max-w-[800px] max-h-[90vh] z-[15] overflow-y-scroll rounded-xl bg-black-default flex flex-col gap-4 p-8 pb-12 fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
                     <Dialog.Close>
                         <X className='text-white hover:text-gray-400 transition-colors' size={32} />
                     </Dialog.Close>
-                    <Dialog.Title >
-                        <h1 className='text-center text-2xl'>{t("components.aboutMeDialog.title")}</h1>
+                    <Dialog.Title className='text-center text-2xl' >
+                        {t("components.aboutMeDialog.title")}
                     </Dialog.Title>
                     <hr className='border-blue-default w-full mb-6 max-w-[40px] border-2 mx-auto' />
                     <p className='text-justify'>{t("components.aboutMeDialog.description")}</p>
