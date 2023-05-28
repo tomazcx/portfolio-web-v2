@@ -6,6 +6,9 @@ export default {
       colors: {
         blue: {
           default: '#315EFF'
+        },
+        black: {
+          default: "#1a1a1a"
         }
       },
       fontFamily: {

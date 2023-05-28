@@ -5,6 +5,7 @@ import { Header } from './components/Header'
 import { ProjectsSection } from './components/ProjectsSection'
 import { ContactSection } from './components/ContactSection'
 import {Wave} from './components/Wave'
+import { AboutSectionMobile } from './components/AboutSectionMobile'
 
 const App = () => {
 
@@ -13,6 +14,7 @@ const App = () => {
     <Header />
     <main>
       <HomeSection />
+      <AboutSectionMobile />
       <AboutSection />
       <TechnologiesSection />
       <ProjectsSection />

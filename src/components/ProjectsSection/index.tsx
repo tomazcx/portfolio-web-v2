@@ -5,27 +5,29 @@ import GlassOn from '../../assets/projects/glass-on.png'
 import CrwnClothing from '../../assets/projects/crwn-clothing.png'
 import OdontoDashboard from '../../assets/projects/odonto dasbhoard.png'
 import MyPersonalTrainer from '../../assets/projects/my-personal-trainer.png'
+import { useTranslation } from "react-i18next"
 
 export const ProjectsSection = () => {
 
+    const {t} = useTranslation()
 
     return (
-        <section id="projects" className="relative h-screen flex flex-col justify-center gap-12 ">
-            <Title text="Para desenvolver diversos projetos!" />
-            <div className="grid grid-cols-12 px-24 gap-12">
-                <motion.div initial={{x:-50,opacity:0}} whileInView={{x:0,opacity:1}} transition={{duration:.6, delay:.3, ease:"easeOut"}} className="col-span-4 h-[300px]">
-                    <Project title="Crwn Clothing" description="E-commerce de roupas" src={CrwnClothing} alt="Crwn Clothing project" />
+        <section id="projects" className="relative h-screen flex flex-col justify-center gap-12 my-[20vh] lg:my-0 ">
+            <Title text={t("projectsSection.title")} />
+            <div className="lg:grid flex flex-col grid-cols-12 w-11/12 items-center mx-auto gap-8 lg:gap-12">
+                <motion.div initial={{x:-50,opacity:0}} whileInView={{x:0,opacity:1}} transition={{duration:.6, delay:.3, ease:"easeOut"}} className="col-span-4 lg:h-[300px]">
+                    <Project title="Crwn Clothing" description={t("projectsSection.crwn-clothing.description")} src={CrwnClothing} alt="Crwn Clothing project" />
                 </motion.div>
-                <motion.div initial={{x:-50,opacity:0}} whileInView={{x:0,opacity:1}} transition={{duration:.6, delay:.6, ease:"easeOut"}} className="col-span-8 h-[300px]">
-                    <Project src={GlassOn} title="Glass On" description="E-commerce de óculos" alt="Glass On project" />
+                <motion.div initial={{x:-50,opacity:0}} whileInView={{x:0,opacity:1}} transition={{duration:.6, delay:.6, ease:"easeOut"}} className="col-span-8 lg:h-[300px]">
+                    <Project src={GlassOn} title="Glass On" description={t("projectsSection.glass-on.description")} alt="Glass On project" />
                 </motion.div>
-                <motion.div initial={{x:-50,opacity:0}} whileInView={{x:0,opacity:1}} transition={{duration:.6, delay:.9, ease:"easeOut"}} className="col-span-7 h-[300px]">
+                <motion.div initial={{x:-50,opacity:0}} whileInView={{x:0,opacity:1}} transition={{duration:.6, delay:.9, ease:"easeOut"}} className="col-span-7 lg:h-[300px]">
 
-                    <Project src={OdontoDashboard} title="Odonto Dashboard" description="Dashboard para gerenciamento de pacientes de uma clínica odontológica." alt="Odonto Dashboard project" />
+                    <Project src={OdontoDashboard} title="Odonto Dashboard" description={t("projectsSection.odonto-dashboard.description")} alt="Odonto Dashboard project" />
                 </motion.div>
                 <motion.div initial={{x:-50,opacity:0}} whileInView={{x:0,opacity:1}} transition={{duration:.6, delay:1.2, ease:"easeOut"}} className="col-span-5 h-[300px]">
 
-                    <Project src={MyPersonalTrainer} title="My Personal Trainer" description="Dashboard para gerenciamento de horários e clientes de personal trainers." alt="My Personal Trainer project" />
+                    <Project src={MyPersonalTrainer} title="My Personal Trainer" description={t("projectsSection.my-personal-trainer.description")} alt="My Personal Trainer project" />
                 </motion.div>
 
             </div>

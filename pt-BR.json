@@ -1,0 +1,77 @@
+{
+    "components": {
+        "goDown": "Role para baixo",
+        "header": {
+            "about": "Sobre mim",
+            "tech": "Tecnologias",
+            "projects": "Projetos",
+            "contact": "Contato"
+        },
+        "aboutMeDialog": {
+            "title": "Sobre mim",
+            "description": "Sou um desenvolvedor web fullstack apaixonado por programação. Sou capaz de planejar, documentar e desenvolver sistemas completos, utilizando diferentes metodologias. Além disso, criar sistemas que se adequem aos princípios SOLID e Clean Architecture. Possuo uma grande fome de conhecimento sobre tudo que envolve computação e sempre procuro me aperfeiçoar cada vez mais ao aprender novas tecnologias, arquiteturas e design patterns, buscando evoluir ao máximo.",
+            "degree": "Formação acadêmica",
+            "degree-technician": "Técnico em informática - Curso técnico integrado ao ensino médio - IFC Campus Videira",
+            "degree-technician-duration": "2020 - 2022 (Concluído)",
+            "degree-college": "Tecnólogo em análise e desenvolvimento de sistemas - Curso superior - UFPR Campus Politécnico",
+            "degree-college-duration": "2023 - 2025 (Em andamento)"
+        }
+    },
+    "homeSection": {
+        "hello": "Olá!",
+        "greetings": " Eu sou"
+    },
+    "aboutSection": {
+        "title": "Sou um desenvolvedor web fullstack",
+        "description": "Eu desenvolvo sistemas e aplicações web, como APIs RESTful e Single Page Applications.",
+        "read-more": "Leia mais"
+    },
+    "technologiesSection": {
+        "title": "Eu já utilizei diversas tecnologias...",
+        "title-tech-hover": "Eu já utilizei diversas tecnologias, como {{tech}}..."
+    },
+    "projectsSection": {
+        "title": "Para desenvolver diversos projetos!",
+        "glass-on": {
+            "title": "Glass On",
+            "description": "E-commerce de óculos."
+        },
+        "crwn-clothing": {
+            "title": "Crwn Clothin.",
+            "description": "E-commerce de roupas."
+        },
+        "odonto-dashboard": {
+            "title": "Odonto Dashboard",
+            "description": "Dashboard para gerenciar os pacientes de uma clínica odontológica."
+        },
+        "my-personal-trainer": {
+            "title": "My Personal Trainer",
+            "description": "Dashboard para gerenciar horários e clients de personal trainers."
+        }
+    },
+    "contactSection": {
+        "title": "Precisando de um programador?",
+        "subtitle-1": "Contate-me pelas minhas redes sociais...",
+        "subtitle-2": "Ou envie um email agora mesmo!",
+        "form": {
+            "name": {
+                "label": "Nome",
+                "error": "Insira um nome válido."
+            },
+            "email": {
+                "label": "Email",
+                "error": "Insira um email válido."
+            },
+            "subject": {
+                "label": "Assunto",
+                "error": "Insira um assunto válido."
+            },
+            "content": {
+                "label": "Conteúdo",
+                "error": "Insira um conteúdo válido."
+            },
+            "error": "A requisição falhou, tente novamente.",
+            "success": "Legal, o email foi enviado!"
+        }
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "components": {
+        "goDown": "Scroll down",
+        "header": {
+            "about": "About me",
+            "tech": "Technologies",
+            "projects": "Projects",
+            "contact": "Contact"
+        },
+        "aboutMeDialog": {
+            "title": "About Me",
+            "description": "I am a passionate full-stack web developer. I am capable of planning, documenting, and developing complete systems using different methodologies. Additionally, I create systems that adhere to SOLID principles and Clean Architecture. I have a great hunger for knowledge in everything related to computing, and I always strive to improve myself by learning new technologies, architectures, and design patterns to evolve to the maximum extent.",
+            "degree": "Academic Education",
+            "degree-technician": "Information Technology Technician - Integrated Technical Course - IFC Campus Videira",
+            "degree-technician-duration": "2020 - 2022 (Completed)",
+            "degree-college": "Bachelor's Degree in Analysis and Systems Development - Higher Education Course - UFPR Campus Politécnico",
+            "degree-college-duration": "2023 - 2025 (Ongoing)"
+        }
+    },
+    "homeSection": {
+        "hello": "Hello!",
+        "greetings": "I am"
+    },
+    "aboutSection":{
+        "title": "I'm a fullstack web developer",
+        "description": "I develope systems and web applications such as RESTful APIs and Single Page Applications.",
+        "read-more": "Read more"
+    },
+    "technologiesSection": {
+        "title": "I've used several technologies...",
+        "title-tech-hover": "I've used several technologies, such as {{tech}}..."
+    },
+    "projectsSection": {
+        "title": "To develop several projects!",
+        "glass-on": {
+            "title": "Glass On",
+            "description": "Glasses e-commerce."
+        },
+        "crwn-clothing": {
+            "title": "Crwn Clothin",
+            "description": "Clothes e-commerce."
+        },
+        "odonto-dashboard": {
+            "title": "Odonto Dashboard",
+            "description": "Dashboard for managing pacients of an ontological clinic."
+        },
+        "my-personal-trainer":{
+            "title": "My Personal Trainer",
+            "description": "Dashboard for managing personal tarainers' schedules and clients."
+        }
+    },
+    "contactSection": {
+        "title": "Need a programmer?",
+        "subtitle-1": "Contact me via social media...",
+        "subtitle-2": "Or send me an email right now!",
+        "form": {
+            "name": {
+                "label": "Name",
+                "error": "Insert a valid name."
+            },
+            "email": {
+                "label": "Email",
+                "error": "Insert a valid email."
+            },
+            "subject": {
+                "label": "Subject",
+                "error": "Insert a valid subject,"
+            },
+            "content": {
+                "label": "Content",
+                "error": "Insert a valid content."
+            },
+            "error": "The request failed, try again.",
+            "success": "Nice, the email was sent!"
+        }
+    }
+}
