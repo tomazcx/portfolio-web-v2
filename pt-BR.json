@@ -70,6 +70,7 @@
                 "label": "Conteúdo",
                 "error": "Insira um conteúdo válido."
             },
+            "button": "Enviar",
             "error": "A requisição falhou, tente novamente.",
             "success": "Legal, o email foi enviado!"
         }

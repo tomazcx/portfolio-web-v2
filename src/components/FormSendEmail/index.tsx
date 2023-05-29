@@ -48,7 +48,7 @@ export const FormSendEmail: React.FC = () => {
             {errors.subject?.message ? <span className="text-red-400">{errors.subject.message}</span> : null}
             <Textarea register={register} name="content" id="content" label={t("contactSection.form.content.label")} rows={10} cols={30} />
             {errors.content?.message ? <span className="text-red-400">{errors.content.message}</span> : null}
-            <Button text="Enviar" />
+            <Button text={t("contactSection.form.button")} />
             {reqError !== "" ? <span className="text-red-400">{reqError}</span> : null}
         </form>
 

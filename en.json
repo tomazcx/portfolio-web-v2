@@ -70,6 +70,7 @@
                 "label": "Content",
                 "error": "Insert a valid content."
             },
+            "button": "Send",
             "error": "The request failed, try again.",
             "success": "Nice, the email was sent!"
         }

@@ -4,13 +4,16 @@ import WavingHand from '../../assets/waving-hand.svg'
 import { GoDown } from '../GoDown'
 import { Title } from '../Title'
 import { AboutDialog } from '../AboutDialog'
+import { useTranslation } from 'react-i18next'
 
 export const AboutSectionMobile: React.FC = () => {
+
+    const {t} = useTranslation()
 
     return (
         <section className="h-screen relative flex flex-col justify-center items-center lg:hidden" id='about-me-mobile'>
             <article className='flex flex-col items-center gap-12 w-10/12 max-w-[900px]'>
-                <Title text='Sou um desenvolvedor fullstack' />
+                <Title text={t("aboutSection.title")} />
                 <div className="flex flex-col items-center gap-8 justify-center relative">
                     <div  className='w-[250px] h-[250px]'>
                         <img src={picture} alt='Selfie do desenvolvedor' className='w-full h-full  rounded-full object-cover' />
@@ -21,7 +24,7 @@ export const AboutSectionMobile: React.FC = () => {
 
                     <div className="flex flex-col gap-4 w-[400px] text-center">
                         <motion.p initial={{ opacity: 0, y: -10 }} className='' whileInView={{ opacity: 1, y: 0 }} transition={{ delay: 2, duration: .5, ease: "linear" }}>
-                            Eu desenvolvo sistemas e aplicações web, como APIs RESTful e Single Page Applications.
+                            {t('aboutSection.description')}
                         </motion.p>
                         <AboutDialog />
                     </div>
