@@ -8,6 +8,7 @@ import Figma from './figma-original.svg'
 import HTML from './html5-original.svg'
 import CSS from './css3-original.svg'
 import Git from './git-plain.svg'
+import StyledComponents from './styled-components-1.svg'
 import Javascript from './javascript-original.svg'
 
 export default [
@@ -46,6 +47,10 @@ export default [
     {
         img: BootstrapLogo,
         name: "Bootstrap"
+    },
+    {
+        img: StyledComponents,
+        name: "Styled Components"
     },
     {
         img: Figma,
