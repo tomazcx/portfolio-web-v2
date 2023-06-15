@@ -9,7 +9,7 @@
         },
         "aboutMeDialog": {
             "title": "About Me",
-            "description": "I am a passionate full-stack web developer. I am capable of planning, documenting, and developing complete systems using different methodologies. Additionally, I create systems that adhere to SOLID principles and Clean Architecture. I have a great hunger for knowledge in everything related to computing, and I always strive to improve myself by learning new technologies, architectures, and design patterns to evolve to the maximum extent.",
+            "description": "I am full-stack developer passionate about programming. I have the abillity of planning, documenting, and developing complete systems using different methodologies. Additionally, I create systems that adhere to SOLID principles and Clean Architecture. I have a great hunger for knowledge in everything related to computing, and I always strive to improve myself by learning new technologies, architectures, and design patterns to evolve to the maximum extent.",
             "degree": "Academic Education",
             "degree-technician": "Information Technology Technician - Integrated Technical Course - IFC Campus Videira",
             "degree-technician-duration": "2020 - 2022 (Completed)",
@@ -23,7 +23,7 @@
     },
     "aboutSection":{
         "title": "I'm a fullstack web developer",
-        "description": "I develope systems and web applications such as RESTful APIs and Single Page Applications.",
+        "description": "I develope web systems, mobile applications and RESTful APIs.",
         "read-more": "Read more"
     },
     "technologiesSection": {

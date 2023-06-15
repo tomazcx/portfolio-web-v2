@@ -22,8 +22,8 @@
         "greetings": " Eu sou"
     },
     "aboutSection": {
-        "title": "Sou um desenvolvedor web fullstack",
-        "description": "Eu desenvolvo sistemas e aplicações web, como APIs RESTful e Single Page Applications.",
+        "title": "Sou um desenvolvedor fullstack",
+        "description": "Eu desenvolvo sistemas web, aplicações mobile e APIs RESTful.",
         "read-more": "Leia mais"
     },
     "technologiesSection": {
