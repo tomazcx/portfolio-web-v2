@@ -22,7 +22,7 @@ export const ProjectsSection = () => {
                     <Project href="https://github.com/tomazcx/next-glass-on" target="_blank" src={GlassOn} title="Glass On" description={t("projectsSection.glass-on.description")} alt="Glass On project" />
                 </motion.div>
                 <motion.div initial={{ x: -50, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ duration: .6, delay: .9, ease: "easeOut" }} className="col-span-7 w-11/12 lg:w-full mx-auto lg:h-[300px]">
-                    <Project href="https://github.com/tomazcx/odonto-dashboard" target="_blank" src={OdontoDashboard} title="Odonto Dashboard" description={t("projectsSection.odonto-dashboard.description")} alt="Odonto Dashboard project" />
+                    <Project href="https://github.com/tomazcx/odonto-dashboard-go" target="_blank" src={OdontoDashboard} title="Odonto Dashboard" description={t("projectsSection.odonto-dashboard.description")} alt="Odonto Dashboard project" />
                 </motion.div>
                 <motion.div initial={{ x: -50, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ duration: .6, delay: 1.2, ease: "easeOut" }} className="col-span-5 w-11/12 lg:w-full mx-auto h-[300px]">
                     <Project href="https://github.com/tomazcx/my-personal-trainer-web" target="_blank" src={MyPersonalTrainer} title="My Personal Trainer" description={t("projectsSection.my-personal-trainer.description")} alt="My Personal Trainer project" />

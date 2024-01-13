@@ -10,7 +10,7 @@ export const AboutDialog: React.FC = () => {
     return (
         <Dialog.Root>
             <Dialog.Trigger className='lg:text-left'>
-                <motion.span initial={{ opacity: 0, y: -10 }} className='underline cursor-pointer transition-colors hover:text-gray-400' whileInView={{ opacity: 1, y: 0 }} transition={{ delay: 4, duration: .5, ease: "linear" }}>
+                <motion.span initial={{ opacity: 0, y: -10 }} className='underline cursor-pointer transition-colors hover:text-gray-400' whileInView={{ opacity: 1, y: 0 }} transition={{ delay: 2.7, duration: .5, ease: "linear" }}>
                     {t("aboutSection.read-more")}
                 </motion.span>
             </Dialog.Trigger>

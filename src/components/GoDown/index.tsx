@@ -13,7 +13,7 @@ export const GoDown:React.FC<GoDown> = ({startOnView = false, text}) => {
   
     return startOnView ? 
      (
-        <motion.span initial={{ opacity: 0, y: -5 }} whileInView={{ opacity: 1, y: 0 }} transition={{ type: "linear", duration: 1, delay: 7 }} className='absolute bottom-[5vh] lg:bottom-[15vh] left-1/2 translate-negative-x text-center flex items-center justify-center gap-4'>
+        <motion.span initial={{ opacity: 0, y: -5 }} whileInView={{ opacity: 1, y: 0 }} transition={{ type: "linear", duration: 1, delay: 4 }} className='absolute bottom-[5vh] lg:bottom-[15vh] left-1/2 translate-negative-x text-center flex items-center justify-center gap-4'>
           {text?? t("components.goDown")}
                 <motion.span initial={{ y: 10 }} animate={{ y: 0 }} transition={{ type: "linear", duration: .5, repeatType: 'reverse', repeat: Infinity }} className='text-white'>
             <ArrowDown size={24} />
@@ -22,7 +22,7 @@ export const GoDown:React.FC<GoDown> = ({startOnView = false, text}) => {
 
     ) :
     (
-        <motion.span initial={{ opacity: 0, y: -5 }} animate={{ opacity: 1, y: 0 }} transition={{ type: "linear", duration: 1, delay: 6 }} className='absolute bottom-[15vh] left-1/2 translate-negative-x text-center flex items-center justify-center gap-4'>
+        <motion.span initial={{ opacity: 0, y: -5 }} animate={{ opacity: 1, y: 0 }} transition={{ type: "linear", duration: 1, delay: 4 }} className='absolute bottom-[15vh] left-1/2 translate-negative-x text-center flex items-center justify-center gap-4'>
           {t("components.goDown")}
           <motion.span initial={{ y: 10 }} animate={{ y: 0 }} transition={{ type: "linear", duration: .5, repeatType: 'reverse', repeat: Infinity }} className='text-white'>
             <ArrowDown size={24} />

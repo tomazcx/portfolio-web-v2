@@ -1,15 +1,16 @@
 import ReactLogo from './react-original.svg'
-import NextJSLogo from './nextjs-line.svg'
-import BootstrapLogo from './bootstrap.png'
-import ReduxLogo from './redux-original.svg'
 import SassLogo from './sass-original.svg'
 import TailwindCSSLogo from './tailwindcss-plain.svg'
 import Figma from './figma-original.svg'
 import HTML from './html5-original.svg'
 import CSS from './css3-original.svg'
 import Git from './git-plain.svg'
-import StyledComponents from './styled-components-1.svg'
 import Javascript from './javascript-original.svg'
+import Nuxt from './nuxt.svg'
+import Vue from './vue.svg'
+import Go from './go.svg'
+import Pinia from './pinia.svg'
+
 
 export default [
     {
@@ -25,16 +26,20 @@ export default [
         name: "Javascript"
     },
     {
+        img: Vue,
+        name: "Vue"
+    },
+    {
         img: ReactLogo,
         name: "React"
     },
     {
-        img: NextJSLogo,
-        name: "Next.js"
+        img: Nuxt,
+        name: "Nuxt.js"
     },
     {
-        img: ReduxLogo,
-        name: "Redux"
+        img: Pinia,
+        name: "Pinia"
     },
     {
         img: SassLogo,
@@ -45,12 +50,8 @@ export default [
         name: "TailwindCSS"
     },
     {
-        img: BootstrapLogo,
-        name: "Bootstrap"
-    },
-    {
-        img: StyledComponents,
-        name: "Styled Components"
+        img: Go,
+        name: "Golang"
     },
     {
         img: Figma,
